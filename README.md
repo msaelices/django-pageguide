@@ -1,9 +1,7 @@
 django-pageguide
 ================
 
-Django integration with `pageguide`_, an interactive guide for web page elements
-
-.. _pageguide: https://github.com/tracelytics/pageguide
+Django integration with [pageguide](https://github.com/tracelytics/pageguide), an interactive guide for web page elements
 
 Installation
 ============
