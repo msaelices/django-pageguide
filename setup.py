@@ -63,7 +63,7 @@ for dirpath, dirnames, filenames in os.walk('.'):
 
 setup(
     name="django-pageguide",
-    version="0.2.2",
+    version="0.1",
     install_requires=parse_requirements('requirements.txt'),
     dependency_links=parse_dependency_links('requirements.txt'),
     author="Manuel Saelices",
