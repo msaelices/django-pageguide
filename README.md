@@ -29,15 +29,33 @@ Run the migrations:
 
 ::
 
-    >>> python manage.py syncdb
+    >>> python manage.py syncdb --migrate
+
+
+Create the pages into the admin interface
+-----------------------------------------
+
+Go to `/admin/pageguide/`
 
 
 Integrate in your base template:
 --------------------------------
 
+* Into the top page:
+
 ::
 
-    COMPLETE
+    {% load pageguide_tags %}
+
+    {% pageguide_css %}
+
+* Into the bottom (near the `</body>` tag):
+
+::
+
+    {% pageguide %}
+
+    {% pageguide_js %}
 
 
 Development
